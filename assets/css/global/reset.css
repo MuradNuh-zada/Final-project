@@ -24,6 +24,27 @@ time, mark, audio, video {
 ul,li{
     list-style: none;
 }
+body{
+	font-family: var(--fontRubik);
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
 a{
     text-decoration: none;
+}
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-between{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
