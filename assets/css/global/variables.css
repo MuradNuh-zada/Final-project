@@ -1,11 +1,13 @@
 :root {
     /* COLOR */
     --mainBlue: #161C2D;
+    --heroColor: #f0fbf3;
     --oceanBlue: #473BF0;
-    --colorOrange:#FB6D45;
+    --colorOrange: #FB6D45;
 
 
 
     /* FONTS */
     --fontRubik: "Rubik", sans-serif;
+    --fontRoboto: "Roboto" sans-serif;
 }
