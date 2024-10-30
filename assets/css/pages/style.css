@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* HEADER */
 header {
@@ -34,7 +34,8 @@ header {
 .hero-section {
     background-color: var(--heroColor);
 }
-.hero-content{
+
+.hero-content {
     width: 518px;
 }
 
@@ -47,6 +48,7 @@ header {
     color: var(--mainBlue);
     padding-bottom: 21px;
 }
+
 .hero-content p {
     width: 368px;
     font-family: var(--fontRoboto);
@@ -55,7 +57,8 @@ header {
     font-size: 19px;
     color: var(--mainBlue);
 }
-.hero-img img{
+
+.hero-img img {
     width: 481px;
     height: 689px;
     padding-top: 56px;
