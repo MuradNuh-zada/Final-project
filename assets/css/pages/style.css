@@ -6,9 +6,8 @@ header {
     background-color: var(--heroColor);
 }
 
-.logo h4 {
+.logo a {
     color: var(--mainBlue);
-    font-size: 28px;
 }
 
 .nav-item {
@@ -62,8 +61,4 @@ header {
     width: 481px;
     height: 689px;
     padding-top: 56px;
-}
-/* COMPANIES */
-.companies{
-    min-height: 100%;
 }
