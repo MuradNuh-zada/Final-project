@@ -26,6 +26,10 @@ header {
     font-family: var(--fontRubik)
 }
 
+header a {
+    color: #161C2D;
+}
+
 main {
     display: flex;
     justify-content: center;
