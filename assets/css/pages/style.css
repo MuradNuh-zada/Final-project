@@ -8,6 +8,9 @@ header {
 
 .logo a {
     color: var(--mainBlue);
+    font-family: var(--fontRubik);
+    font-size: 28px;
+    font-weight: 700 ;
 }
 
 .nav-item {
@@ -50,10 +53,10 @@ header {
 
 .hero-content p {
     width: 368px;
-    font-family: var(--fontRoboto);
     font-weight: 400;
     line-height: 32px;
     font-size: 19px;
+    opacity: 0.5;
     color: var(--mainBlue);
 }
 
@@ -61,4 +64,26 @@ header {
     width: 481px;
     height: 689px;
     padding-top: 56px;
+}
+/* COMPANIES*/
+.companies{
+    padding-top: 114px;
+    min-height: 100%;
+}
+.companies-content h3{
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.companies-content p{
+    width: 686px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    opacity: 0.5;
+    text-align: center;
+}
+.companies-logo{
+    padding-top: 63px;  
 }

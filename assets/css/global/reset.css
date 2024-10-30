@@ -26,7 +26,7 @@ ul,li{
     list-style: none;
 }
 body{
-	font-family: var(--fontRubik);
+	font-family: var(--fontRoboto);
 }
 img{
 	width: 100%;
@@ -39,6 +39,12 @@ img{
 a{
     text-decoration: none;
 }
+.gap{
+	gap: 50px;
+}
+.flex-direction-col{
+	flex-direction: column;
+}
 .flex-center{
 	display: flex;
 	justify-content: center;
@@ -48,4 +54,7 @@ a{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.flex-wrap{
+	flex-wrap: wrap;
 }
