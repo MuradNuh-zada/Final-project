@@ -4,75 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- * CSS LINKS -->
-    <link rel="stylesheet" href="../css/global/reset.css" />
-    <link rel="stylesheet" href="../css/global/variables.css" />
-    <link rel="stylesheet" href="../css/pages/signin.css" />
+    <link rel="stylesheet" href="../css/pages/style.css" />
+    <link rel="stylesheet" href="../css/global/global.css" />
     <link rel="stylesheet" href="../css/global/responsive.css" />
-    
-    <title>Sign Up</title>
+
+    <title>About Us</title>
   </head>
   <body>
     <!-- * HEADER START -->
     <header>
-      <a href="../../index.html">Brainwave.io</a>
+      <div class="container flex-between">
+        <div class="logo">
+          <a href="../../index.html">Brainwave.io</a>
+        </div>
+        <nav>
+          <ul class="nav-list flex-between">
+            <li class="nav-item">
+              <a class="nav-link active" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./support.html">Support</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="btns">
+          <a class="login" href="../pages/login.html">Login</a>
+          <a class="sign-up" href="../pages/signUp.html">Sign up</a>
+        </div>
+      </div>
     </header>
     <!-- * HEADER END -->
-
-    <!-- * MAIN START -->
-    <main>
-      <section>
-        <h1>Sign up</h1>
-        <p class="title">To get started, you need to sign up here.</p>
-        <form action="">
-          <div class="form-item">
-            <label for="name">First & Last Name</label>
-            <input
-              class="focus-input"
-              type="text"
-              id="name"
-              name="name"
-              placeholder="i.e. John Doe"
-            />
-          </div>
-
-          <div class="form-item">
-            <label for="email">Email</label>
-            <input
-              class="focus-input"
-              type="email"
-              id="email"
-              name="email"
-              placeholder="i.e.john@gmail.com"
-            />
-          </div>
-          <div class="form-item">
-            <label for="pass">Password</label>
-            <input
-              class="focus-input"
-              type="password"
-              id="pass"
-              name="pass"
-              placeholder="********"
-            />
-          </div>
-          <div class="form-item">
-            <label for="confirmPass">Confirm Password</label>
-            <input
-              class="focus-input"
-              type="password"
-              id="confirmPass"
-              name="confirmPass"
-              placeholder="********"
-            />
-          </div>
-          <input type="submit" value="Create an account" />
-        </form>
-        <p class="question">
-          Already have an account? <a href="./login.html">Sign in now</a>
-        </p>
-      </section>
-    </main>
-    <!-- * MAIN END -->
 
     <!-- * FOOTER START -->
     <footer>
@@ -110,7 +75,7 @@
           <div class="footer-company footer-item">
             <span>Company</span>
             <ul>
-              <li><a href="./aboutus.html">About us</a></li>
+              <li><a href="#">About us</a></li>
               <li><a href="#">Contact us</a></li>
               <li><a href="#">Careers</a></li>
               <li><a href="#">Press</a></li>

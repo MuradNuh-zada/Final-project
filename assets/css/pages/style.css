@@ -1,11 +1,16 @@
 /* HEADER */
 header {
-    padding-top: 21px !important;
+    padding-block: 21px !important;
     background-color: var(--heroColor);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .logo a {
     color: var(--mainBlue);
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .nav-item {
@@ -18,7 +23,7 @@ header {
     font-weight: 700;
 }
 
-.active {
+.nav-item a:hover {
     color: var(--colorOrange);
 }
 
@@ -60,5 +65,3 @@ header {
     height: 689px;
     padding-top: 56px;
 }
-
-
