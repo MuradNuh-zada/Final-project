@@ -46,6 +46,7 @@ h1 {
 }
 
 .title {
+    text-align: center;
     font-size: 19px;
     font-weight: 400;
     margin-block: 35px 55px;
