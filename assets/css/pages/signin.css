@@ -19,6 +19,10 @@
 }
 
 header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
     text-align: center;
     padding-block: 25px;
     font-size: 24px;
