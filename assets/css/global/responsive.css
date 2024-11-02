@@ -1,0 +1,207 @@
+@media only screen and (max-width:1024px) {
+    .container {
+        width: 90%;
+    }
+
+    /* * SIGN IN START */
+    header {
+        padding-block: 20px;
+        font-size: 20px;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .title {
+        font-size: 16px;
+        margin-block: 25px 45px;
+    }
+
+    form {
+        padding: 25px 20px;
+    }
+
+    .form-item {
+        margin-bottom: 18px;
+    }
+
+    label {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    input {
+        padding: 8px 14px;
+    }
+
+
+    input[type="submit"] {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .question {
+        font-size: 15px;
+        margin-block: 30px;
+    }
+
+    /* * SIGN IN END */
+
+
+    /* * FOOTER START */
+    footer {
+        padding-block: 30px;
+        margin-top: 50px;
+    }
+
+    .footer-box {
+        gap: 30px;
+        padding-block: 30px;
+    }
+
+    .footer-desc strong {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .footer-desc p {
+        font-size: 10px;
+        margin-block: 20px;
+        line-height: 18px;
+    }
+
+    .footer-desc ul li a {
+        font-size: 14px;
+    }
+
+    .footer-desc ul {
+        gap: 15px;
+    }
+
+    .footer-desc,
+    .footer-item {
+        padding-block: 10px;
+    }
+
+    .footer-item span {
+        font-size: 13px;
+        line-height: 5px;
+        margin-bottom: 10px;
+    }
+
+    .footer-item ul li a {
+        margin-block: 5px;
+        font-size: 14px;
+    }
+
+    /* * FOOTER END */
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        width: 90%;
+    }
+
+    /* * SIGN IN START */
+    header {
+        padding-block: 10px;
+        font-size: 15px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .title {
+        font-size: 10px;
+        margin-block: 15px 30px;
+    }
+
+    form {
+        padding: 20px 15px;
+    }
+
+    .form-item {
+        margin-bottom: 12px;
+    }
+
+    label {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    input {
+        padding: 5px 10px;
+    }
+
+
+    input[type="submit"] {
+        font-size: 10px;
+        padding-block: 8px;
+        margin-top: 10px;
+    }
+
+    .question {
+        font-size: 10px;
+        margin-block: 20px;
+    }
+
+    /* * SIGN IN END */
+
+    /* * FOOTER START */
+    footer {
+        padding-block: 10px;
+        margin-top: 30px;
+    }
+
+    .footer-box {
+        gap: 8px;
+        padding-block: 10px;
+    }
+
+    .footer-desc strong {
+        font-size: 10px;
+        line-height: 4px;
+    }
+
+    .footer-desc p {
+        font-size: 6px;
+        margin-block: 10px;
+        line-height: 12px;
+    }
+
+    .footer-desc ul li a {
+        font-size: 10px;
+    }
+
+    .footer-desc ul {
+        gap: 5px;
+    }
+
+    .footer-desc,
+    .footer-item {
+        padding-block: 3px;
+    }
+
+    .footer-item span {
+        font-size: 5px;
+        line-height: 3px;
+        margin-bottom: 6px;
+    }
+
+    .footer-item ul li a {
+        margin-block: 4px;
+        font-size: 6px;
+    }
+
+    /* * FOOTER END */
+}
