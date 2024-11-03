@@ -136,7 +136,16 @@ header {
     height: 117px;
     border-radius: 10px;
     background-color: var(--White);
+    transition: all 0.3s ease; 
+}
+.category-card:hover {
+    color: var(--White);
+    background-color: var(--oceanBlue);
+    transform: translateY(-9px);
 }
 .card-content{
     padding: 32px 27px ;
+}
+.card-content h6{
+    padding-bottom: 15px;
 }
