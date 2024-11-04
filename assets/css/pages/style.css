@@ -136,16 +136,55 @@ header {
     height: 117px;
     border-radius: 10px;
     background-color: var(--White);
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
+
 .category-card:hover {
     color: var(--White);
     background-color: var(--oceanBlue);
     transform: translateY(-9px);
 }
-.card-content{
-    padding: 32px 27px ;
+
+.card-content {
+    padding: 32px 27px;
 }
-.card-content h6{
+
+.card-content h6 {
     padding-bottom: 15px;
+}
+
+/* FIND-JOB-SECTION */
+.find-job {
+    padding-top: 113px;
+}
+
+.find-job_header h3 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 17px;
+}
+
+.find-job_header p {
+    width: 589px;
+    font-size: 19px;
+    font-weight: 400;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.find-job-container {
+    position: relative;
+    padding-top: 96px;
+}
+
+.green-layer {
+    position: absolute;
+    bottom: 30px;
+    right: 5px;
+    width: 397px;
+    height: 547px;
+    background-color: #68D585;
+    border-radius: 10px;
+    opacity: 0.1;
+    z-index: -1;
 }
