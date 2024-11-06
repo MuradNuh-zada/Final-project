@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* HEADER */
-header {
-    padding-block: 21px !important;
+.global-header {
+    padding-block: 21px;
     background-color: var(--heroColor);
     position: sticky;
     top: 0;
@@ -36,7 +36,8 @@ header {
 }
 
 /* HERO*/
-.hero-section {
+
+#hero-section {
     background-color: var(--heroColor);
 }
 
@@ -71,8 +72,7 @@ header {
 
 /* COMPANIES*/
 .companies {
-    padding-top: 114px;
-    min-height: 563px;
+    padding-block: 114px;
 }
 
 .companies-area {
@@ -87,7 +87,7 @@ header {
 }
 
 .companies-content p {
-    width: 686px;
+    padding-inline: 45px;
     font-size: 19px;
     font-weight: 400;
     line-height: 32px;
@@ -97,6 +97,7 @@ header {
 
 .companies-logo {
     padding-top: 63px;
+    gap: 50px;
 }
 
 /* CATEGORY*/
@@ -137,6 +138,7 @@ header {
     border-radius: 10px;
     background-color: var(--White);
 }
-.card-content{
-    padding: 32px 27px ;
+
+.card-content {
+    padding: 32px 27px;
 }
