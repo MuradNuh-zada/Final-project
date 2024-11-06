@@ -96,7 +96,8 @@ ul,
 li {
 	list-style: none;
 }
-body{
+
+body {
 	font-family: var(--fontRoboto);
 }
 
@@ -113,13 +114,16 @@ img {
 a {
 	text-decoration: none;
 }
-.gap{
+
+.gap {
 	gap: 50px;
 }
-.flex-direction-col{
+
+.flex-direction-col {
 	flex-direction: column;
 }
-.flex-center{
+
+.flex-center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -130,7 +134,8 @@ a {
 	justify-content: space-between;
 	align-items: center;
 }
-.flex-wrap{
+
+.flex-wrap {
 	display: flex;
 	flex-wrap: wrap;
 }
