@@ -137,6 +137,7 @@ header {
     border-radius: 10px;
     background-color: var(--White);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .category-card:hover {
@@ -348,6 +349,11 @@ header {
     border-radius: 10px;
     border: 1px solid #E7E9ED;
     border-radius: 8px;
+    cursor: pointer;
+}
+.help-card:hover{
+    transform: translateY(-10px);
+    transition: transform 0.4s ease-in;
 }
 
 .helps-card-content {
