@@ -4,7 +4,7 @@ body {
     font-family: var(--fontRoboto);
 }
 
-header {
+.global-header {
     background-color: #fff;
 }
 
