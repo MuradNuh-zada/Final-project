@@ -149,22 +149,8 @@
     padding: 32px 27px;
 }
 
-.category-card:hover {
-    background-color: #473BF0;
-    box-shadow: 0 34px 33px -23px #161C2D21;
-    transform: translateY(-7px);
-    -webkit-transform: translateY(-7px);
-    -moz-transform: translateY(-7px);
-    -ms-transform: translateY(-7px);
-    -o-transform: translateY(-7px);
-
-    strong {
-        color: #fff;
-    }
-}
-
 .category-card strong {
-    font-size: 21px;
+    font-size: 20px;
     line-height: 32px;
 }
 
